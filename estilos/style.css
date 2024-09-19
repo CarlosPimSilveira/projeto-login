@@ -40,6 +40,10 @@ section#login{
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+    
+    /* estamos fazendo uma animação para quando aumentar ou diminuir a tela */
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease; /* faz uma suavizada na animação para ela nao acelerar */
 }
 
 section#login > div#imagem {
